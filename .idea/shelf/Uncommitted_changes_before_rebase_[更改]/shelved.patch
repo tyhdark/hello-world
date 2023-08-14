@@ -1,0 +1,19 @@
+Index: runoob-test.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>1\n2\n3\ntang\nyi\nhang\nwo
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/runoob-test.txt b/runoob-test.txt
+--- a/runoob-test.txt	(revision d87090ea90f283318f80ec3a88765571d48aa0ae)
++++ b/runoob-test.txt	(date 1691654526079)
+@@ -4,4 +4,5 @@
+ tang
+ yi
+ hang
+-wo
+\ No newline at end of file
++wo
++test
+\ No newline at end of file
