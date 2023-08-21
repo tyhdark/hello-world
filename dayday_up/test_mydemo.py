@@ -32,7 +32,7 @@ class TestDemo(object):
         yield my_addr
         if is_end:
             user_addr = None
-            logger.info("结束------is_end={is_end}------删除用户--------")
+            logger.error("结束------is_end={is_end}------删除用户--------")
 
     # 使用 fixture 执行清理操作
     @pytest.mark.parametrize("send_fees", (9999, 100, 100.0, 100.1, 100.49, 100.9, 200, "end"))
