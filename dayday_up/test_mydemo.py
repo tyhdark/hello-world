@@ -62,4 +62,19 @@ class TestDemo(object):
         else:
             logger.info(f"send_fees={send_fees},self={self}-------do something------------")
 
-# 运行测试
+
+def user_adr_not_none():
+    return True
+
+
+class TestFixTrueParams:
+    @pytest.fixture(scope='class', params=[1, 2, 3])
+    def step_first(self, request):
+        return request.param
+
+    def test_use_fixtrue(self, step_first):
+        logger.info(f"step_first 返回的参数是{step_first}")
+
+    @pytest.mark.skipif(user_adr_not_none(), reason="跳过跳过")
+    def test_skip_if_demo(self):
+        logger.info("TestFixTrueParams/test_skip_if_demo")
