@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="172ce719-8c8f-4452-bae2-67bc02f628a4" name="更改" comment="2023-08-14主要学习了装饰器的知识">
-      <change afterPath="$PROJECT_DIR$/dayday_up/2023_08_15.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[更改]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase___.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/_2023_8_10_3_30____.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行签出之前于_2023_8_10_下午3_30_取消提交了更改_[更改]/shelved.patch" beforeDir="false" />
+    <list default="true" id="172ce719-8c8f-4452-bae2-67bc02f628a4" name="更改" comment="解决 创建新地址后 A函数执行完所有的parametrize参数后 再创建新地址 去执行B函数里所有的parametrize">
+      <change afterPath="$PROJECT_DIR$/dayday_up/mydemo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2023_08_11_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dayday_up/2023_08_14.py" beforeDir="false" afterPath="$PROJECT_DIR$/dayday_up/2023_08_14.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +83,7 @@
       <recent name="$PROJECT_DIR$/dayday_up" />
     </key>
   </component>
-  <component name="RunManager" selected="Python 测试.2023_08_18.test_my_teardown 的 Python 测试">
+  <component name="RunManager" selected="Python 测试.Python 测试 (mydemo.py 内)">
     <configuration name="2023_08_14" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="hello-world" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -109,25 +105,18 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2023_08_15" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="2023_08_18.TestDemo.test_my_teardown 的 Python 测试" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="hello-world" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dayday_up" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dayday_up/2023_08_15.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;-s&quot;" />
+      <option name="_new_target" value="&quot;2023_08_18.TestDemo.test_my_teardown&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="2023_08_18.test_my_teardown 的 Python 测试" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
@@ -144,7 +133,49 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="2023_08_18.test_with_teardown 的 Python 测试" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python 测试 (mydemo.py 内)" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="hello-world" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dayday_up" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/dayday_up/mydemo.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mydemo.TestCalculator 的 Python 测试" type="tests" factoryName="Autodetect" nameIsGenerated="true">
+      <module name="hello-world" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dayday_up" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;mydemo.TestCalculator&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mydemo.TestCalculator.test_addition 的 Python 测试" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="hello-world" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dayday_up" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;mydemo.TestCalculator.test_addition&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mydemo.test_example 的 Python 测试" type="tests" factoryName="Autodetect" nameIsGenerated="true">
       <module name="hello-world" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -154,16 +185,31 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;-s&quot;" />
-      <option name="_new_target" value="&quot;2023_08_18.test_with_teardown&quot;" />
+      <option name="_new_target" value="&quot;mydemo.test_example&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_mydemo.TestFixTrueParams 的 Python 测试" type="tests" factoryName="Autodetect" nameIsGenerated="true">
+      <module name="hello-world" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dayday_up" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;-s&quot;" />
+      <option name="_new_target" value="&quot;test_mydemo.TestFixTrueParams&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python 测试.2023_08_18.test_my_teardown 的 Python 测试" />
-        <item itemvalue="Python 测试.2023_08_18.test_with_teardown 的 Python 测试" />
-        <item itemvalue="Python.2023_08_15" />
+        <item itemvalue="Python 测试.Python 测试 (mydemo.py 内)" />
         <item itemvalue="Python.2023_08_14" />
+        <item itemvalue="Python 测试.2023_08_18.TestDemo.test_my_teardown 的 Python 测试" />
+        <item itemvalue="Python 测试.mydemo.TestCalculator.test_addition 的 Python 测试" />
+        <item itemvalue="Python 测试.2023_08_18.test_my_teardown 的 Python 测试" />
       </list>
     </recent_temporary>
   </component>
@@ -320,7 +366,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692016475593</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="解决 创建新地址后 A函数执行完所有的parametrize参数后 再创建新地址 去执行B函数里所有的parametrize">
+      <option name="closed" value="true" />
+      <created>1692784815201</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1692784815201</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -381,6 +435,23 @@
     <MESSAGE value="新增学习文档" />
     <MESSAGE value="合并" />
     <MESSAGE value="2023-08-14主要学习了装饰器的知识" />
-    <option name="LAST_COMMIT_MESSAGE" value="2023-08-14主要学习了装饰器的知识" />
+    <MESSAGE value="解决 创建新地址后 A函数执行完所有的parametrize参数后 再创建新地址 去执行B函数里所有的parametrize" />
+    <option name="LAST_COMMIT_MESSAGE" value="解决 创建新地址后 A函数执行完所有的parametrize参数后 再创建新地址 去执行B函数里所有的parametrize" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dayday_up/2023_08_14.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dayday_up/2023_08_14.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
