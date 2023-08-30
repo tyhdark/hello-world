@@ -18,14 +18,14 @@ def return_decorator(flag):
 
 
 @my_decorator
-def num_add(a, b):
+def num_add(a, b, c):
     """
     使用普通的装饰器
     :param a:
     :param b:
     :return:
     """
-    return a + b
+    return a + b + c
 
 
 @return_decorator("-")
@@ -53,8 +53,8 @@ class Tang:
 
 
 if __name__ == '__main__':
-    print(num_add(10, 2))
-    print(num_sub(10, 2))
+    # print(num_add(10, 2, 10))
+    # print(num_sub(10, 2))
     tang = Tang()
     print(tang.add_num(11, 10))
     print(tang.sub_num(10, 5))
